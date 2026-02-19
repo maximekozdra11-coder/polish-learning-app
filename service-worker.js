@@ -43,7 +43,7 @@ self.addEventListener('fetch', event => {
         if (!response || response.status !== 200) {
           return response;
         }
-        if (response.type !== 'opaque') {
+        if (response.type !== 'opaque' && response.ok) {
           const clone = response.clone();
           caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
         }

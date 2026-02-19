@@ -179,8 +179,10 @@ function initLessons() {
     }
   }
 
+  const LESSON_QUIZ_ANSWER_DELAY_MS = 1200;
+
   function renderLessonQuiz(lesson, container) {
-    const QUIZ_ANSWER_DELAY = 1200;
+    const QUIZ_ANSWER_DELAY = LESSON_QUIZ_ANSWER_DELAY_MS;
     let currentQ = 0;
     let score = 0;
     let answered = false;
