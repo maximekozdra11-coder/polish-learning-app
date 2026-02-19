@@ -1,0 +1,590 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Se présenter",
+      "level": "Débutant",
+      "icon": "👤",
+      "objectives": ["Dire son prénom", "Dire sa nationalité", "Demander le prénom de quelqu'un"],
+      "content": [
+        {
+          "type": "explanation",
+          "text": "En polonais, pour vous présenter, vous dites 'Nazywam się' suivi de votre prénom. Le polonais est une langue à flexion, ce qui signifie que les mots changent selon leur fonction dans la phrase. Pour cette leçon, concentrez-vous sur les formules de base."
+        },
+        {
+          "type": "vocabulary",
+          "words": [
+            {"fr": "Je m'appelle", "pl": "Nazywam się", "phonetic": "Na-zy-vam chè"},
+            {"fr": "Je suis", "pl": "Jestem", "phonetic": "Yés-tem"},
+            {"fr": "Français(e)", "pl": "Francuz / Francuzka", "phonetic": "Fran-tsous / Fran-tsous-ka"},
+            {"fr": "Et toi / Et vous ?", "pl": "A ty? / A pan/pani?", "phonetic": "A ty / A pan/pa-ñi"},
+            {"fr": "Enchanté(e)", "pl": "Miło mi", "phonetic": "Mi-wo mi"},
+            {"fr": "Quel est ton prénom ?", "pl": "Jak masz na imię?", "phonetic": "Yak mach na i-mié"}
+          ]
+        },
+        {
+          "type": "example",
+          "fr": "Bonjour, je m'appelle Marie. Je suis française.",
+          "pl": "Dzień dobry, nazywam się Marie. Jestem Francuzką.",
+          "phonetic": "Djeñ dob-ry, na-zy-vam chè Marie. Yés-tem fran-tsous-kom."
+        },
+        {
+          "type": "example",
+          "fr": "Enchanté ! Comment vous appelez-vous ?",
+          "pl": "Miło mi! Jak się pan/pani nazywa?",
+          "phonetic": "Mi-wo mi! Yak chè pan/pa-ñi na-zy-va?"
+        },
+        {
+          "type": "tip",
+          "text": "💡 En polonais, il y a une distinction formelle (pan/pani) et informelle (ty). Utilisez toujours la forme formelle avec des inconnus."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Comment dit-on 'Je m'appelle' en polonais ?",
+          "options": ["Jestem", "Nazywam się", "Miło mi", "Jak się masz"],
+          "answer": 1
+        },
+        {
+          "question": "Quelle est la traduction de 'Miło mi' ?",
+          "options": ["Bonsoir", "Au revoir", "Enchanté(e)", "Merci"],
+          "answer": 2
+        },
+        {
+          "question": "Comment demande-t-on 'Comment vous appelez-vous ?' de manière formelle ?",
+          "options": ["Jak masz na imię?", "Jak się pan/pani nazywa?", "Kim jesteś?", "Skąd jesteś?"],
+          "answer": 1
+        },
+        {
+          "question": "Quelle est la traduction de 'Jestem Francuzką' ?",
+          "options": ["Je parle français", "Je suis française", "J'aime la France", "Je viens de France"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Les salutations",
+      "level": "Débutant",
+      "icon": "👋",
+      "objectives": ["Saluer selon le moment de la journée", "Dire au revoir", "Demander comment ça va"],
+      "content": [
+        {
+          "type": "explanation",
+          "text": "Les salutations en polonais varient selon le moment de la journée et le niveau de formalité. 'Dzień dobry' signifie littéralement 'bonne journée' et s'utilise jusqu'à environ 18h. Après 18h, on dit 'Dobry wieczór' (bonsoir). Entre amis, 'Cześć' est universel."
+        },
+        {
+          "type": "vocabulary",
+          "words": [
+            {"fr": "Bonjour (avant 18h)", "pl": "Dzień dobry", "phonetic": "Djeñ dob-ry"},
+            {"fr": "Bonsoir (après 18h)", "pl": "Dobry wieczór", "phonetic": "Dob-ry vié-tchour"},
+            {"fr": "Salut (informel)", "pl": "Cześć", "phonetic": "Tchèchtch"},
+            {"fr": "Au revoir (formel)", "pl": "Do widzenia", "phonetic": "Do vi-dzé-nia"},
+            {"fr": "À bientôt", "pl": "Do zobaczenia", "phonetic": "Do zo-ba-tché-nia"},
+            {"fr": "Bonne nuit", "pl": "Dobranoc", "phonetic": "Dob-ra-nots"},
+            {"fr": "Comment allez-vous ?", "pl": "Jak się masz? / Jak się pan/pani miewa?", "phonetic": "Yak chè mach / Yak chè pan/pa-ñi mié-va"},
+            {"fr": "Je vais bien", "pl": "Dobrze", "phonetic": "Dob-jé"}
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "💡 'Cześć' peut signifier à la fois 'salut' et 'au revoir' entre amis, comme le 'ciao' italien."
+        },
+        {
+          "type": "example",
+          "fr": "— Bonjour ! Comment allez-vous ? — Je vais bien, merci.",
+          "pl": "— Dzień dobry! Jak się pan miewa? — Dobrze, dziękuję.",
+          "phonetic": "— Djeñ dob-ry! Yak chè pan mié-va? — Dob-jé, djeñ-kou-yé."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Comment dit-on 'Bonsoir' en polonais ?",
+          "options": ["Dzień dobry", "Dobranoc", "Dobry wieczór", "Cześć"],
+          "answer": 2
+        },
+        {
+          "question": "Quelle expression utilise-t-on entre amis pour dire bonjour ET au revoir ?",
+          "options": ["Do widzenia", "Dzień dobry", "Cześć", "Do zobaczenia"],
+          "answer": 2
+        },
+        {
+          "question": "Comment dit-on 'Je vais bien' en polonais ?",
+          "options": ["Dziękuję", "Przepraszam", "Dobrze", "Rozumiem"],
+          "answer": 2
+        },
+        {
+          "question": "'Do zobaczenia' signifie :",
+          "options": ["Bonne nuit", "Au revoir", "À bientôt", "Bonjour"],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Les chiffres de 1 à 20",
+      "level": "Débutant",
+      "icon": "🔢",
+      "objectives": ["Compter de 1 à 20", "Donner son âge", "Indiquer une quantité simple"],
+      "content": [
+        {
+          "type": "explanation",
+          "text": "Les chiffres en polonais suivent des règles de prononciation particulières. Notez que le 'ą' se prononce comme un 'on' nasal, et le 'ę' comme un 'en'. Les chiffres de 11 à 19 se forment en ajoutant '-naście' au chiffre de base."
+        },
+        {
+          "type": "vocabulary",
+          "words": [
+            {"fr": "un / une", "pl": "jeden / jedna", "phonetic": "yé-den / yed-na"},
+            {"fr": "deux", "pl": "dwa", "phonetic": "dva"},
+            {"fr": "trois", "pl": "trzy", "phonetic": "tchy"},
+            {"fr": "quatre", "pl": "cztery", "phonetic": "tchté-ry"},
+            {"fr": "cinq", "pl": "pięć", "phonetic": "pieñtch"},
+            {"fr": "six", "pl": "sześć", "phonetic": "chèchtch"},
+            {"fr": "sept", "pl": "siedem", "phonetic": "ché-dem"},
+            {"fr": "huit", "pl": "osiem", "phonetic": "o-chem"},
+            {"fr": "neuf", "pl": "dziewięć", "phonetic": "djé-vieñtch"},
+            {"fr": "dix", "pl": "dziesięć", "phonetic": "djé-cheñtch"}
+          ]
+        },
+        {
+          "type": "explanation",
+          "text": "Pour donner votre âge : 'Mam [chiffre] lat/lata/lato'. La forme change selon le chiffre : 1 an = rok, 2-4 = lata, 5+ = lat."
+        },
+        {
+          "type": "example",
+          "fr": "J'ai vingt-cinq ans.",
+          "pl": "Mam dwadzieścia pięć lat.",
+          "phonetic": "Mam dva-djéch-tcha pieñtch lat."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Comment dit-on 'cinq' en polonais ?",
+          "options": ["cztery", "sześć", "pięć", "siedem"],
+          "answer": 2
+        },
+        {
+          "question": "Quelle est la traduction de 'trzy' ?",
+          "options": ["deux", "trois", "treize", "trente"],
+          "answer": 1
+        },
+        {
+          "question": "Comment dit-on 'J'ai dix ans' en polonais ?",
+          "options": ["Jestem dziesięć", "Mam dziesięć lat", "Mój wiek to dziesięć", "Dziesięć to mój wiek"],
+          "answer": 1
+        },
+        {
+          "question": "'Osiem' signifie :",
+          "options": ["sept", "neuf", "six", "huit"],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "La famille",
+      "level": "Débutant",
+      "icon": "👨‍👩‍👧",
+      "objectives": ["Nommer les membres de la famille", "Décrire sa famille", "Parler de ses proches"],
+      "content": [
+        {
+          "type": "explanation",
+          "text": "En polonais, les noms de membres de la famille ont des genres grammaticaux. La plupart des noms féminins se terminent en -a, et les noms masculins ont des terminaisons variées. Le mot pour 'parents' (rodzice) est toujours au pluriel."
+        },
+        {
+          "type": "vocabulary",
+          "words": [
+            {"fr": "mère", "pl": "matka / mama", "phonetic": "mat-ka / ma-ma"},
+            {"fr": "père", "pl": "ojciec / tata", "phonetic": "oï-tsiets / ta-ta"},
+            {"fr": "frère", "pl": "brat", "phonetic": "brat"},
+            {"fr": "sœur", "pl": "siostra", "phonetic": "chos-tra"},
+            {"fr": "grand-mère", "pl": "babcia", "phonetic": "bab-tcha"},
+            {"fr": "grand-père", "pl": "dziadek", "phonetic": "dja-dek"},
+            {"fr": "mari", "pl": "mąż", "phonetic": "monch"},
+            {"fr": "femme / épouse", "pl": "żona", "phonetic": "jo-na"},
+            {"fr": "enfant", "pl": "dziecko", "phonetic": "djiets-ko"},
+            {"fr": "famille", "pl": "rodzina", "phonetic": "ro-dji-na"}
+          ]
+        },
+        {
+          "type": "example",
+          "fr": "Ma mère s'appelle Anna. Elle a deux frères.",
+          "pl": "Moja mama nazywa się Anna. Ona ma dwóch braci.",
+          "phonetic": "Mo-ya ma-ma na-zy-va chè Anna. O-na ma dvouh bra-tchi."
+        },
+        {
+          "type": "tip",
+          "text": "💡 En polonais familier, on utilise souvent 'mama' et 'tata' au lieu de 'matka' et 'ojciec', exactement comme 'maman' et 'papa' en français."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Comment dit-on 'grand-mère' en polonais ?",
+          "options": ["mama", "babcia", "ciocia", "siostra"],
+          "answer": 1
+        },
+        {
+          "question": "Quelle est la traduction de 'brat' ?",
+          "options": ["père", "fils", "frère", "mari"],
+          "answer": 2
+        },
+        {
+          "question": "Comment dit-on 'famille' en polonais ?",
+          "options": ["rodzice", "rodzina", "rodzeństwo", "krewni"],
+          "answer": 1
+        },
+        {
+          "question": "'Żona' signifie :",
+          "options": ["fille", "sœur", "épouse", "tante"],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Les couleurs",
+      "level": "Débutant",
+      "icon": "🎨",
+      "objectives": ["Nommer les couleurs principales", "Décrire des objets par leur couleur", "Accorder les adjectifs de couleur"],
+      "content": [
+        {
+          "type": "explanation",
+          "text": "En polonais, les adjectifs (dont les couleurs) s'accordent en genre et en nombre avec le nom qu'ils qualifient. Un adjectif masculin se termine souvent en -y/-i, et un adjectif féminin en -a. Exemple : czerwony samochód (voiture rouge, m.) / czerwona sukienka (robe rouge, f.)"
+        },
+        {
+          "type": "vocabulary",
+          "words": [
+            {"fr": "rouge", "pl": "czerwony/a", "phonetic": "tcher-vo-ny/na"},
+            {"fr": "bleu(e)", "pl": "niebieski/a", "phonetic": "ñe-bies-ki/ka"},
+            {"fr": "vert(e)", "pl": "zielony/a", "phonetic": "zjé-lo-ny/na"},
+            {"fr": "jaune", "pl": "żółty/a", "phonetic": "jow-ty/ta"},
+            {"fr": "noir(e)", "pl": "czarny/a", "phonetic": "tchar-ny/na"},
+            {"fr": "blanc(he)", "pl": "biały/a", "phonetic": "bia-wy/wa"},
+            {"fr": "gris(e)", "pl": "szary/a", "phonetic": "cha-ry/ra"},
+            {"fr": "marron", "pl": "brązowy/a", "phonetic": "bron-zo-vy/va"},
+            {"fr": "orange", "pl": "pomarańczowy/a", "phonetic": "po-ma-rañ-tcho-vy/va"},
+            {"fr": "violet(te)", "pl": "fioletowy/a", "phonetic": "fio-lé-to-vy/va"}
+          ]
+        },
+        {
+          "type": "example",
+          "fr": "Le ciel est bleu et l'herbe est verte.",
+          "pl": "Niebo jest niebieskie i trawa jest zielona.",
+          "phonetic": "Ñe-bo yest ñe-bies-kyé i tra-va yest zjé-lo-na."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Comment dit-on 'rouge' en polonais (masculin) ?",
+          "options": ["niebieski", "zielony", "czerwony", "żółty"],
+          "answer": 2
+        },
+        {
+          "question": "Quelle couleur est 'biały' ?",
+          "options": ["noir", "blanc", "gris", "beige"],
+          "answer": 1
+        },
+        {
+          "question": "Quelle est la terminaison d'un adjectif féminin en polonais ?",
+          "options": ["-y", "-i", "-a", "-e"],
+          "answer": 2
+        },
+        {
+          "question": "'Żółty' signifie :",
+          "options": ["vert", "orange", "jaune", "doré"],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Commander au restaurant",
+      "level": "Intermédiaire",
+      "icon": "🍽️",
+      "objectives": ["Commander à manger et à boire", "Demander l'addition", "Indiquer des préférences alimentaires"],
+      "content": [
+        {
+          "type": "explanation",
+          "text": "Au restaurant, les formules de politesse sont importantes. Utilisez 'proszę' (s'il vous plaît / voici) très fréquemment. Le verbe 'chcieć' (vouloir) est irrégulier : je veux = chcę. Pour commander, on peut aussi utiliser le verbe 'brać' (prendre) : biorę (je prends)."
+        },
+        {
+          "type": "vocabulary",
+          "words": [
+            {"fr": "s'il vous plaît / voici", "pl": "proszę", "phonetic": "pro-chè"},
+            {"fr": "je voudrais", "pl": "poproszę / chciałbym", "phonetic": "po-pro-chè / htchiaou-bym"},
+            {"fr": "le menu", "pl": "menu / karta", "phonetic": "mé-nou / kar-ta"},
+            {"fr": "l'addition", "pl": "rachunek", "phonetic": "ra-hou-nek"},
+            {"fr": "c'est délicieux", "pl": "to jest pyszne", "phonetic": "to yest pych-né"},
+            {"fr": "sans viande", "pl": "bez mięsa", "phonetic": "bez mieñ-sa"},
+            {"fr": "piquant", "pl": "ostre", "phonetic": "os-tré"},
+            {"fr": "allergique à", "pl": "uczulony/a na", "phonetic": "ou-tchou-lo-ny/na na"}
+          ]
+        },
+        {
+          "type": "example",
+          "fr": "— Un café et un gâteau, s'il vous plaît. — Voici. Bon appétit !",
+          "pl": "— Poproszę kawę i ciasto. — Proszę. Smacznego!",
+          "phonetic": "— Po-pro-chè ka-vè i tsiast-o. — Pro-chè. Smatch-né-go!"
+        },
+        {
+          "type": "tip",
+          "text": "💡 'Smacznego !' est l'équivalent de 'Bon appétit !' en polonais. C'est une formule très utilisée avant les repas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Comment dit-on 'l'addition' en polonais ?",
+          "options": ["menu", "proszę", "rachunek", "karta"],
+          "answer": 2
+        },
+        {
+          "question": "Que signifie 'Smacznego !' ?",
+          "options": ["Merci !", "Bon appétit !", "C'est délicieux !", "À votre santé !"],
+          "answer": 1
+        },
+        {
+          "question": "Comment dit-on 'sans viande' en polonais ?",
+          "options": ["z mięsem", "bez mięsa", "dużo mięsa", "trochę mięsa"],
+          "answer": 1
+        },
+        {
+          "question": "'Poproszę kawę' signifie :",
+          "options": ["Je n'aime pas le café", "Le café est prêt", "Un café, s'il vous plaît", "Où est le café ?"],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Se déplacer en ville",
+      "level": "Intermédiaire",
+      "icon": "🗺️",
+      "objectives": ["Demander son chemin", "Comprendre les directions", "Utiliser les transports en commun"],
+      "content": [
+        {
+          "type": "explanation",
+          "text": "Pour se déplacer, vous aurez besoin des points cardinaux et des directions. En polonais, les directions utilisent souvent l'accusatif : 'w prawo' (à droite), 'w lewo' (à gauche). La préposition 'do' (vers/à) est suivie du génitif."
+        },
+        {
+          "type": "vocabulary",
+          "words": [
+            {"fr": "à droite", "pl": "w prawo", "phonetic": "v pra-vo"},
+            {"fr": "à gauche", "pl": "w lewo", "phonetic": "v lé-vo"},
+            {"fr": "tout droit", "pl": "prosto", "phonetic": "pros-to"},
+            {"fr": "tournez", "pl": "proszę skręcić", "phonetic": "pro-chè skrèñ-tshitch"},
+            {"fr": "la rue", "pl": "ulica", "phonetic": "ou-li-tsa"},
+            {"fr": "le carrefour", "pl": "skrzyżowanie", "phonetic": "skchi-jo-va-ñé"},
+            {"fr": "le pont", "pl": "most", "phonetic": "most"},
+            {"fr": "en face de", "pl": "naprzeciwko", "phonetic": "na-pché-tshiv-ko"},
+            {"fr": "à côté de", "pl": "obok", "phonetic": "o-bok"},
+            {"fr": "loin", "pl": "daleko", "phonetic": "da-lé-ko"}
+          ]
+        },
+        {
+          "type": "example",
+          "fr": "Excusez-moi, où est la gare ? — Tout droit, puis à gauche.",
+          "pl": "Przepraszam, gdzie jest dworzec? — Prosto, potem w lewo.",
+          "phonetic": "Pché-pra-cham, gdjé yest dvo-jets? — Pros-to, po-tem v lé-vo."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Comment dit-on 'à droite' en polonais ?",
+          "options": ["w lewo", "prosto", "w prawo", "daleko"],
+          "answer": 2
+        },
+        {
+          "question": "Que signifie 'skrzyżowanie' ?",
+          "options": ["rue", "pont", "carrefour", "trottoir"],
+          "answer": 2
+        },
+        {
+          "question": "Comment dit-on 'tout droit' en polonais ?",
+          "options": ["prosto", "proszę", "potem", "tutaj"],
+          "answer": 0
+        },
+        {
+          "question": "'Naprzeciwko' signifie :",
+          "options": ["à côté de", "derrière", "en face de", "entre"],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Parler du temps qu'il fait",
+      "level": "Intermédiaire",
+      "icon": "⛅",
+      "objectives": ["Décrire la météo", "Parler des saisons", "Demander/donner la température"],
+      "content": [
+        {
+          "type": "explanation",
+          "text": "Pour parler de la météo en polonais, on utilise souvent des constructions impersonnelles. 'Jest' signifie 'il est/il fait'. Les quatre saisons en polonais sont wiosna, lato, jesień, zima. La Pologne a un climat continental avec des étés chauds et des hivers froids."
+        },
+        {
+          "type": "vocabulary",
+          "words": [
+            {"fr": "il fait beau", "pl": "jest ładna pogoda", "phonetic": "yest wad-na po-go-da"},
+            {"fr": "il pleut", "pl": "pada deszcz", "phonetic": "pa-da déchtch"},
+            {"fr": "il neige", "pl": "pada śnieg", "phonetic": "pa-da chñieg"},
+            {"fr": "il fait chaud", "pl": "jest gorąco", "phonetic": "yest go-ron-tso"},
+            {"fr": "il fait froid", "pl": "jest zimno", "phonetic": "yest zim-no"},
+            {"fr": "le soleil", "pl": "słońce", "phonetic": "swoñ-tsé"},
+            {"fr": "le nuage", "pl": "chmura", "phonetic": "hmou-ra"},
+            {"fr": "le vent", "pl": "wiatr", "phonetic": "viatr"},
+            {"fr": "printemps", "pl": "wiosna", "phonetic": "vios-na"},
+            {"fr": "été", "pl": "lato", "phonetic": "la-to"}
+          ]
+        },
+        {
+          "type": "example",
+          "fr": "Aujourd'hui il fait froid et il neige. Il fait moins cinq degrés.",
+          "pl": "Dziś jest zimno i pada śnieg. Jest minus pięć stopni.",
+          "phonetic": "Djich yest zim-no i pa-da chñieg. Yest mi-nous pieñtch stop-ñi."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Comment dit-on 'il pleut' en polonais ?",
+          "options": ["pada śnieg", "jest zimno", "pada deszcz", "wieje wiatr"],
+          "answer": 2
+        },
+        {
+          "question": "Quelle est la traduction de 'lato' ?",
+          "options": ["printemps", "automne", "hiver", "été"],
+          "answer": 3
+        },
+        {
+          "question": "'Jest gorąco' signifie :",
+          "options": ["il fait froid", "il fait beau", "il fait chaud", "il fait nuageux"],
+          "answer": 2
+        },
+        {
+          "question": "Comment dit-on 'le vent' en polonais ?",
+          "options": ["deszcz", "wiatr", "słońce", "chmura"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Le présent des verbes courants",
+      "level": "Intermédiaire",
+      "icon": "✏️",
+      "objectives": ["Conjuguer les verbes au présent", "Utiliser les verbes mówić, mieć, chcieć", "Former des phrases simples"],
+      "content": [
+        {
+          "type": "explanation",
+          "text": "Le présent polonais correspond au présent français et au présent progressif anglais. Les verbes polonais se divisent en plusieurs groupes selon leur conjugaison. Les terminaisons du présent pour le groupe le plus courant sont : -ę, -esz, -e, -emy, -ecie, -ą."
+        },
+        {
+          "type": "vocabulary",
+          "words": [
+            {"fr": "je parle", "pl": "mówię", "phonetic": "mou-vyé"},
+            {"fr": "tu parles", "pl": "mówisz", "phonetic": "mou-vich"},
+            {"fr": "il/elle parle", "pl": "mówi", "phonetic": "mou-vi"},
+            {"fr": "nous parlons", "pl": "mówimy", "phonetic": "mou-vi-my"},
+            {"fr": "j'ai", "pl": "mam", "phonetic": "mam"},
+            {"fr": "tu as", "pl": "masz", "phonetic": "mach"},
+            {"fr": "je veux", "pl": "chcę", "phonetic": "htse"},
+            {"fr": "tu veux", "pl": "chcesz", "phonetic": "htséch"},
+            {"fr": "je peux", "pl": "mogę", "phonetic": "mo-gè"},
+            {"fr": "je dois", "pl": "muszę", "phonetic": "mou-ché"}
+          ]
+        },
+        {
+          "type": "example",
+          "fr": "Je parle un peu polonais. Je veux apprendre davantage.",
+          "pl": "Mówię trochę po polsku. Chcę się więcej nauczyć.",
+          "phonetic": "Mou-vyé tro-hè po pol-skou. Htse chè vyèn-tseï na-ou-tchitch."
+        },
+        {
+          "type": "tip",
+          "text": "💡 'Po polsku' signifie 'en polonais'. 'Po' + langue à l'adjectif locatif donne la façon de dire dans quelle langue on s'exprime."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Quelle est la conjugaison de 'mówić' à la première personne du singulier ?",
+          "options": ["mówisz", "mówię", "mówi", "mówimy"],
+          "answer": 1
+        },
+        {
+          "question": "'Mam' est la conjugaison de quel verbe ?",
+          "options": ["być", "chcieć", "móc", "mieć"],
+          "answer": 3
+        },
+        {
+          "question": "Comment dit-on 'je veux' en polonais ?",
+          "options": ["mogę", "muszę", "chcę", "mam"],
+          "answer": 2
+        },
+        {
+          "question": "'Mówisz' correspond à quelle personne ?",
+          "options": ["je", "tu", "il/elle", "nous"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Le passé : j'ai fait, j'étais",
+      "level": "Avancé",
+      "icon": "⏪",
+      "objectives": ["Conjuguer les verbes au passé", "Comprendre la distinction masculin/féminin au passé", "Raconter des événements passés"],
+      "content": [
+        {
+          "type": "explanation",
+          "text": "Le passé polonais (czas przeszły) est unique : les formes changent selon le genre et le nombre du sujet. Un homme dit 'byłem' (j'étais), une femme dit 'byłam'. Cette règle s'applique à tous les verbes. Les terminaisons sont : masculin -em/-eś/-ø, féminin -am/-aś/-a."
+        },
+        {
+          "type": "vocabulary",
+          "words": [
+            {"fr": "j'étais (homme)", "pl": "byłem", "phonetic": "by-wem"},
+            {"fr": "j'étais (femme)", "pl": "byłam", "phonetic": "by-wam"},
+            {"fr": "j'ai parlé (homme)", "pl": "mówiłem", "phonetic": "mou-vi-wem"},
+            {"fr": "j'ai parlé (femme)", "pl": "mówiłam", "phonetic": "mou-vi-wam"},
+            {"fr": "j'ai mangé (homme)", "pl": "jadłem", "phonetic": "yad-wem"},
+            {"fr": "j'ai mangé (femme)", "pl": "jadłam", "phonetic": "yad-wam"},
+            {"fr": "nous avons fait (hommes/mixte)", "pl": "robiliśmy", "phonetic": "ro-bi-lich-my"},
+            {"fr": "nous avons fait (femmes)", "pl": "robiłyśmy", "phonetic": "ro-bi-wich-my"},
+            {"fr": "il a dit", "pl": "powiedział", "phonetic": "po-vié-djaw"},
+            {"fr": "elle a dit", "pl": "powiedziała", "phonetic": "po-vié-djia-wa"}
+          ]
+        },
+        {
+          "type": "example",
+          "fr": "Hier, j'ai travaillé toute la journée et je suis allé au cinéma.",
+          "pl": "Wczoraj pracowałem cały dzień i poszedłem do kina.",
+          "phonetic": "Vcho-raï pra-tso-va-wem tsa-wy djeñ i po-ched-wem do ki-na."
+        },
+        {
+          "type": "tip",
+          "text": "💡 En polonais, la distinction de genre au passé est obligatoire. C'est une des particularités importantes de cette langue."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Une femme dit 'j'étais' en polonais :",
+          "options": ["byłem", "był", "byłam", "były"],
+          "answer": 2
+        },
+        {
+          "question": "'Mówiłem' est utilisé par :",
+          "options": ["une femme", "un homme", "les deux", "un groupe de femmes"],
+          "answer": 1
+        },
+        {
+          "question": "Quelle est la forme féminine de 'pracowałem' ?",
+          "options": ["pracowałaś", "pracowała", "pracowałam", "pracowały"],
+          "answer": 2
+        },
+        {
+          "question": "Pour un groupe mixte 'nous avons mangé', on utilise :",
+          "options": ["jedłyśmy", "jedliśmy", "jadłyśmy", "jedliście"],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

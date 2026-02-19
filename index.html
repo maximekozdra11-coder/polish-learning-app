@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Apprenez le polonais facilement : vocabulaire, prononciation, grammaire, quiz et phrases utiles." />
+  <meta name="theme-color" content="#4f46e5" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Polonais" />
+  <title>Polonais - Apprendre</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="assets/icons/icon-192.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.svg" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<div id="app">
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <div class="app-title">
+        <span>🇵🇱</span> Polonais
+      </div>
+      <div class="header-progress">
+        <div class="progress-bar-wrap">
+          <div class="progress-bar-fill" id="globalProgressBar"></div>
+        </div>
+        <span class="progress-label" id="globalProgressLabel">0%</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- TAB NAVIGATION -->
+  <nav aria-label="Navigation principale">
+    <div class="nav-inner">
+      <button class="tab-btn active" data-tab="vocabulaire" aria-selected="true">
+        <span class="tab-icon">📚</span>
+        <span class="tab-label">Vocabulaire</span>
+      </button>
+      <button class="tab-btn" data-tab="prononciation" aria-selected="false">
+        <span class="tab-icon">🎤</span>
+        <span class="tab-label">Prononciation</span>
+      </button>
+      <button class="tab-btn" data-tab="lecons" aria-selected="false">
+        <span class="tab-icon">📖</span>
+        <span class="tab-label">Leçons</span>
+      </button>
+      <button class="tab-btn" data-tab="quiz" aria-selected="false">
+        <span class="tab-icon">✅</span>
+        <span class="tab-label">Quiz</span>
+      </button>
+      <button class="tab-btn" data-tab="conjugaison" aria-selected="false">
+        <span class="tab-icon">📝</span>
+        <span class="tab-label">Conjugaison</span>
+      </button>
+      <button class="tab-btn" data-tab="phrases" aria-selected="false">
+        <span class="tab-icon">💬</span>
+        <span class="tab-label">Phrases</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+
+    <!-- VOCABULAIRE -->
+    <section id="vocabulaire" class="section active" aria-labelledby="vocab-title">
+      <div class="section-header">
+        <h1 class="section-title" id="vocab-title">📚 Vocabulaire</h1>
+        <p class="section-subtitle">Apprenez les mots polonais essentiels par catégorie</p>
+      </div>
+
+      <div id="vocab-stats" class="stats-row"></div>
+
+      <div id="vocab-categories" class="card">
+        <div class="card-header">
+          <span class="card-title">Choisissez une catégorie</span>
+        </div>
+        <div id="category-grid" class="category-grid"></div>
+      </div>
+
+      <div id="vocab-flashcard-section" style="display:none;">
+        <div class="card" style="margin-bottom:1rem;">
+          <div class="card-header" style="margin-bottom:0;">
+            <div style="display:flex;align-items:center;gap:0.5rem;">
+              <button class="btn btn-secondary btn-sm" id="vocab-back-btn">← Retour</button>
+              <span id="vocab-category-title" class="card-title"></span>
+            </div>
+            <div style="display:flex;gap:0.5rem;align-items:center;">
+              <span id="vocab-mode-label" class="badge badge-primary">Apprentissage</span>
+              <button class="btn btn-secondary btn-sm" id="vocab-toggle-mode">Mode révision</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flashcard-container">
+          <div class="flashcard" id="flashcard">
+            <div class="flashcard-front">
+              <div class="flashcard-hint">Français</div>
+              <div class="flashcard-word" id="flashcard-fr">—</div>
+            </div>
+            <div class="flashcard-back">
+              <div class="flashcard-hint" style="color:var(--text-muted);">Polonais</div>
+              <div class="flashcard-word" id="flashcard-pl" style="color:var(--primary);">—</div>
+              <div class="flashcard-phonetic" id="flashcard-phonetic"></div>
+              <div class="flashcard-gender" id="flashcard-gender"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flashcard-nav">
+          <button class="btn btn-secondary btn-icon" id="flashcard-prev">←</button>
+          <span class="flashcard-counter" id="flashcard-counter">1 / 1</span>
+          <button class="btn btn-secondary btn-icon" id="flashcard-next">→</button>
+        </div>
+
+        <div class="flashcard-actions">
+          <button class="btn btn-secondary btn-sm" id="flashcard-flip">🔄 Retourner</button>
+          <button class="btn btn-success btn-sm" id="flashcard-learned">✓ Appris</button>
+          <button class="btn btn-secondary btn-sm" id="flashcard-shuffle">🔀 Mélanger</button>
+        </div>
+
+        <div class="card" style="margin-top:1rem;">
+          <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;">
+            <span style="font-size:0.875rem;color:var(--text-muted);">Progression</span>
+            <span id="learned-count" style="font-size:0.875rem;font-weight:600;color:var(--success);">0 appris</span>
+          </div>
+          <div class="category-progress-bar" style="margin-top:0.5rem;height:8px;">
+            <div class="category-progress-fill" id="learned-progress" style="width:0%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRONONCIATION -->
+    <section id="prononciation" class="section" aria-labelledby="pron-title">
+      <div class="section-header">
+        <h1 class="section-title" id="pron-title">🎤 Prononciation</h1>
+        <p class="section-subtitle">Maîtrisez les sons spéciaux du polonais</p>
+      </div>
+      <div id="pronunciation-content"></div>
+    </section>
+
+    <!-- LEÇONS -->
+    <section id="lecons" class="section" aria-labelledby="lessons-title">
+      <div class="section-header">
+        <h1 class="section-title" id="lessons-title">📖 Leçons</h1>
+        <p class="section-subtitle">Cours structurés du débutant à l'avancé</p>
+      </div>
+
+      <div id="lessons-list-view">
+        <div id="lessons-stats" class="stats-row"></div>
+        <div class="level-filter" id="level-filter">
+          <button class="level-btn active" data-level="tous">Tous</button>
+          <button class="level-btn" data-level="Débutant">🟢 Débutant</button>
+          <button class="level-btn" data-level="Intermédiaire">🟡 Intermédiaire</button>
+          <button class="level-btn" data-level="Avancé">🔴 Avancé</button>
+        </div>
+        <div id="lessons-grid" class="lessons-grid"></div>
+      </div>
+
+      <div id="lesson-detail-view" class="lesson-detail">
+        <button class="btn btn-secondary btn-sm" id="lesson-back-btn" style="margin-bottom:1rem;">← Retour aux leçons</button>
+        <div id="lesson-detail-content"></div>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz" class="section" aria-labelledby="quiz-title">
+      <div class="section-header">
+        <h1 class="section-title" id="quiz-title">✅ Quiz</h1>
+        <p class="section-subtitle">Testez vos connaissances</p>
+      </div>
+
+      <div class="quiz-intro active" id="quiz-intro">
+        <div id="quiz-stats" class="stats-row"></div>
+        <div class="card" style="text-align:center;padding:2rem;">
+          <div style="font-size:3rem;margin-bottom:0.75rem;">🧠</div>
+          <h2 style="margin-bottom:0.5rem;">Prêt pour le quiz ?</h2>
+          <p style="color:var(--text-muted);margin-bottom:1.5rem;font-size:0.9rem;">Testez vos connaissances sur le vocabulaire et les leçons</p>
+          <div style="display:flex;gap:0.75rem;flex-wrap:wrap;justify-content:center;margin-bottom:1.5rem;">
+            <label style="display:flex;align-items:center;gap:0.4rem;font-size:0.875rem;">
+              <input type="radio" name="quiz-type" value="vocabulary" checked /> Vocabulaire
+            </label>
+            <label style="display:flex;align-items:center;gap:0.4rem;font-size:0.875rem;">
+              <input type="radio" name="quiz-type" value="lessons" /> Leçons
+            </label>
+            <label style="display:flex;align-items:center;gap:0.4rem;font-size:0.875rem;">
+              <input type="radio" name="quiz-type" value="mixed" /> Mixte
+            </label>
+          </div>
+          <div style="display:flex;gap:0.75rem;flex-wrap:wrap;justify-content:center;">
+            <button class="btn btn-primary btn-lg" id="start-quiz-10">Démarrer (10 questions)</button>
+            <button class="btn btn-ghost btn-lg" id="start-quiz-20">20 questions</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz-question" id="quiz-question">
+        <div class="quiz-header">
+          <div class="quiz-progress-wrap">
+            <div style="display:flex;justify-content:space-between;font-size:0.78rem;color:var(--text-muted);">
+              <span id="quiz-q-num">Question 1 / 10</span>
+              <span id="quiz-score-top">0 pts</span>
+            </div>
+            <div class="quiz-progress-bar">
+              <div class="quiz-progress-fill" id="quiz-progress-fill" style="width:0%"></div>
+            </div>
+          </div>
+          <button class="btn btn-secondary btn-sm" id="quit-quiz">Abandonner</button>
+        </div>
+
+        <div class="card">
+          <p style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:0.5rem;" id="quiz-q-type">Traduction</p>
+          <p class="quiz-q-text" id="quiz-q-text"></p>
+          <p class="quiz-q-context" id="quiz-q-context" style="display:none;"></p>
+          <div class="quiz-options" id="quiz-options"></div>
+          <div class="quiz-feedback" id="quiz-feedback"></div>
+        </div>
+
+        <div style="display:flex;justify-content:flex-end;margin-top:1rem;">
+          <button class="btn btn-primary" id="quiz-next-btn" style="display:none;">Question suivante →</button>
+        </div>
+      </div>
+
+      <div class="quiz-result" id="quiz-result">
+        <div class="card" style="text-align:center;padding:2.5rem;">
+          <div style="font-size:3rem;margin-bottom:0.5rem;" id="result-emoji">🏆</div>
+          <div class="result-score-big" id="result-score">8/10</div>
+          <div class="result-message" id="result-message"></div>
+          <div class="stats-row" id="result-stats" style="max-width:300px;margin:0 auto 1.5rem;"></div>
+          <div style="display:flex;gap:0.75rem;flex-wrap:wrap;justify-content:center;">
+            <button class="btn btn-primary btn-lg" id="retry-quiz">🔄 Rejouer</button>
+            <button class="btn btn-secondary btn-lg" id="back-to-quiz-menu">← Menu</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONJUGAISON -->
+    <section id="conjugaison" class="section" aria-labelledby="conj-title">
+      <div class="section-header">
+        <h1 class="section-title" id="conj-title">📝 Conjugaison</h1>
+        <p class="section-subtitle">Tables de conjugaison des verbes polonais</p>
+      </div>
+
+      <div id="conjugation-content">
+        <input type="search" class="search-input" id="verb-search" placeholder="🔍 Rechercher un verbe..." aria-label="Rechercher un verbe" />
+        <div id="verb-grid" class="verb-grid"></div>
+
+        <div id="conjugation-table-section" style="display:none;">
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <div class="card-title" id="conj-verb-title"></div>
+                <div id="conj-verb-type" style="margin-top:0.25rem;"></div>
+              </div>
+              <button class="btn btn-secondary btn-sm" id="close-conjugation">✕</button>
+            </div>
+            <div class="tense-tabs" id="tense-tabs">
+              <button class="tense-tab active" data-tense="present">Présent</button>
+              <button class="tense-tab" data-tense="past">Passé</button>
+              <button class="tense-tab" data-tense="future">Futur</button>
+            </div>
+            <div id="conjugation-table-wrap"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHRASES -->
+    <section id="phrases" class="section" aria-labelledby="phrases-title">
+      <div class="section-header">
+        <h1 class="section-title" id="phrases-title">💬 Phrases utiles</h1>
+        <p class="section-subtitle">Expressions pratiques pour toutes les situations</p>
+      </div>
+
+      <div class="phrase-search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="search" class="search-input" id="phrase-search" placeholder="Rechercher une phrase..." aria-label="Rechercher une phrase" />
+      </div>
+
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.75rem;">
+        <span style="font-size:0.875rem;color:var(--text-muted);" id="phrases-count"></span>
+        <button class="btn btn-secondary btn-sm" id="show-favorites">⭐ Favoris</button>
+      </div>
+
+      <div id="phrases-list" class="phrases-cat-list"></div>
+    </section>
+
+  </main>
+</div>
+
+<div class="toast-container" id="toast-container"></div>
+
+<script src="js/vocabulary.js"></script>
+<script src="js/pronunciation.js"></script>
+<script src="js/lessons.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/conjugation.js"></script>
+<script src="js/phrases.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+{
+  "verbs": [
+    {
+      "fr": "être",
+      "pl": "być",
+      "type": "irrégulier",
+      "conjugations": {
+        "present": {"je": "jestem", "tu": "jesteś", "il": "jest", "nous": "jesteśmy", "vous": "jesteście", "ils": "są"},
+        "past": {"je_m": "byłem", "je_f": "byłam", "tu_m": "byłeś", "tu_f": "byłaś", "il": "był", "elle": "była", "nous_m": "byliśmy", "nous_f": "byłyśmy", "vous_m": "byliście", "vous_f": "byłyście", "ils": "byli", "elles": "były"},
+        "future": {"je": "będę", "tu": "będziesz", "il": "będzie", "nous": "będziemy", "vous": "będziecie", "ils": "będą"}
+      }
+    },
+    {
+      "fr": "avoir",
+      "pl": "mieć",
+      "type": "irrégulier",
+      "conjugations": {
+        "present": {"je": "mam", "tu": "masz", "il": "ma", "nous": "mamy", "vous": "macie", "ils": "mają"},
+        "past": {"je_m": "miałem", "je_f": "miałam", "tu_m": "miałeś", "tu_f": "miałaś", "il": "miał", "elle": "miała", "nous_m": "mieliśmy", "nous_f": "miałyśmy", "vous_m": "mieliście", "vous_f": "miałyście", "ils": "mieli", "elles": "miały"},
+        "future": {"je": "będę mieć", "tu": "będziesz mieć", "il": "będzie mieć", "nous": "będziemy mieć", "vous": "będziecie mieć", "ils": "będą mieć"}
+      }
+    },
+    {
+      "fr": "aller",
+      "pl": "iść / chodzić",
+      "type": "irrégulier",
+      "conjugations": {
+        "present": {"je": "idę", "tu": "idziesz", "il": "idzie", "nous": "idziemy", "vous": "idziecie", "ils": "idą"},
+        "past": {"je_m": "szedłem", "je_f": "szłam", "tu_m": "szedłeś", "tu_f": "szłaś", "il": "szedł", "elle": "szła", "nous_m": "szliśmy", "nous_f": "szłyśmy", "vous_m": "szliście", "vous_f": "szłyście", "ils": "szli", "elles": "szły"},
+        "future": {"je": "pójdę", "tu": "pójdziesz", "il": "pójdzie", "nous": "pójdziemy", "vous": "pójdziecie", "ils": "pójdą"}
+      }
+    },
+    {
+      "fr": "vouloir",
+      "pl": "chcieć",
+      "type": "irrégulier",
+      "conjugations": {
+        "present": {"je": "chcę", "tu": "chcesz", "il": "chce", "nous": "chcemy", "vous": "chcecie", "ils": "chcą"},
+        "past": {"je_m": "chciałem", "je_f": "chciałam", "tu_m": "chciałeś", "tu_f": "chciałaś", "il": "chciał", "elle": "chciała", "nous_m": "chcieliśmy", "nous_f": "chciałyśmy", "vous_m": "chcieliście", "vous_f": "chciałyście", "ils": "chcieli", "elles": "chciały"},
+        "future": {"je": "będę chcieć", "tu": "będziesz chcieć", "il": "będzie chcieć", "nous": "będziemy chcieć", "vous": "będziecie chcieć", "ils": "będą chcieć"}
+      }
+    },
+    {
+      "fr": "pouvoir",
+      "pl": "móc",
+      "type": "irrégulier",
+      "conjugations": {
+        "present": {"je": "mogę", "tu": "możesz", "il": "może", "nous": "możemy", "vous": "możecie", "ils": "mogą"},
+        "past": {"je_m": "mogłem", "je_f": "mogłam", "tu_m": "mogłeś", "tu_f": "mogłaś", "il": "mógł", "elle": "mogła", "nous_m": "mogliśmy", "nous_f": "mogłyśmy", "vous_m": "mogliście", "vous_f": "mogłyście", "ils": "mogli", "elles": "mogły"},
+        "future": {"je": "będę móc", "tu": "będziesz móc", "il": "będzie móc", "nous": "będziemy móc", "vous": "będziecie móc", "ils": "będą móc"}
+      }
+    },
+    {
+      "fr": "parler",
+      "pl": "mówić",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "mówię", "tu": "mówisz", "il": "mówi", "nous": "mówimy", "vous": "mówicie", "ils": "mówią"},
+        "past": {"je_m": "mówiłem", "je_f": "mówiłam", "tu_m": "mówiłeś", "tu_f": "mówiłaś", "il": "mówił", "elle": "mówiła", "nous_m": "mówiliśmy", "nous_f": "mówiłyśmy", "vous_m": "mówiliście", "vous_f": "mówiłyście", "ils": "mówili", "elles": "mówiły"},
+        "future": {"je": "będę mówić", "tu": "będziesz mówić", "il": "będzie mówić", "nous": "będziemy mówić", "vous": "będziecie mówić", "ils": "będą mówić"}
+      }
+    },
+    {
+      "fr": "manger",
+      "pl": "jeść",
+      "type": "irrégulier",
+      "conjugations": {
+        "present": {"je": "jem", "tu": "jesz", "il": "je", "nous": "jemy", "vous": "jecie", "ils": "jedzą"},
+        "past": {"je_m": "jadłem", "je_f": "jadłam", "tu_m": "jadłeś", "tu_f": "jadłaś", "il": "jadł", "elle": "jadła", "nous_m": "jedliśmy", "nous_f": "jadłyśmy", "vous_m": "jedliście", "vous_f": "jadłyście", "ils": "jedli", "elles": "jadły"},
+        "future": {"je": "będę jeść", "tu": "będziesz jeść", "il": "będzie jeść", "nous": "będziemy jeść", "vous": "będziecie jeść", "ils": "będą jeść"}
+      }
+    },
+    {
+      "fr": "boire",
+      "pl": "pić",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "piję", "tu": "pijesz", "il": "pije", "nous": "pijemy", "vous": "pijecie", "ils": "piją"},
+        "past": {"je_m": "piłem", "je_f": "piłam", "tu_m": "piłeś", "tu_f": "piłaś", "il": "pił", "elle": "piła", "nous_m": "piliśmy", "nous_f": "piłyśmy", "vous_m": "piliście", "vous_f": "piłyście", "ils": "pili", "elles": "piły"},
+        "future": {"je": "będę pić", "tu": "będziesz pić", "il": "będzie pić", "nous": "będziemy pić", "vous": "będziecie pić", "ils": "będą pić"}
+      }
+    },
+    {
+      "fr": "voir",
+      "pl": "widzieć",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "widzę", "tu": "widzisz", "il": "widzi", "nous": "widzimy", "vous": "widzicie", "ils": "widzą"},
+        "past": {"je_m": "widziałem", "je_f": "widziałam", "tu_m": "widziałeś", "tu_f": "widziałaś", "il": "widział", "elle": "widziała", "nous_m": "widzieliśmy", "nous_f": "widziałyśmy", "vous_m": "widzieliście", "vous_f": "widziałyście", "ils": "widzieli", "elles": "widziały"},
+        "future": {"je": "będę widzieć", "tu": "będziesz widzieć", "il": "będzie widzieć", "nous": "będziemy widzieć", "vous": "będziecie widzieć", "ils": "będą widzieć"}
+      }
+    },
+    {
+      "fr": "savoir",
+      "pl": "wiedzieć",
+      "type": "irrégulier",
+      "conjugations": {
+        "present": {"je": "wiem", "tu": "wiesz", "il": "wie", "nous": "wiemy", "vous": "wiecie", "ils": "wiedzą"},
+        "past": {"je_m": "wiedziałem", "je_f": "wiedziałam", "tu_m": "wiedziałeś", "tu_f": "wiedziałaś", "il": "wiedział", "elle": "wiedziała", "nous_m": "wiedzieliśmy", "nous_f": "wiedziałyśmy", "vous_m": "wiedzieliście", "vous_f": "wiedziałyście", "ils": "wiedzieli", "elles": "wiedziały"},
+        "future": {"je": "będę wiedzieć", "tu": "będziesz wiedzieć", "il": "będzie wiedzieć", "nous": "będziemy wiedzieć", "vous": "będziecie wiedzieć", "ils": "będą wiedzieć"}
+      }
+    },
+    {
+      "fr": "venir",
+      "pl": "przychodzić",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "przychodzę", "tu": "przychodzisz", "il": "przychodzi", "nous": "przychodzimy", "vous": "przychodzicie", "ils": "przychodzą"},
+        "past": {"je_m": "przychodziłem", "je_f": "przychodziłam", "tu_m": "przychodziłeś", "tu_f": "przychodziłaś", "il": "przychodził", "elle": "przychodziła", "nous_m": "przychodziliśmy", "nous_f": "przychodziłyśmy", "vous_m": "przychodziliście", "vous_f": "przychodziłyście", "ils": "przychodzili", "elles": "przychodziły"},
+        "future": {"je": "będę przychodzić", "tu": "będziesz przychodzić", "il": "będzie przychodzić", "nous": "będziemy przychodzić", "vous": "będziecie przychodzić", "ils": "będą przychodzić"}
+      }
+    },
+    {
+      "fr": "faire",
+      "pl": "robić",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "robię", "tu": "robisz", "il": "robi", "nous": "robimy", "vous": "robicie", "ils": "robią"},
+        "past": {"je_m": "robiłem", "je_f": "robiłam", "tu_m": "robiłeś", "tu_f": "robiłaś", "il": "robił", "elle": "robiła", "nous_m": "robiliśmy", "nous_f": "robiłyśmy", "vous_m": "robiliście", "vous_f": "robiłyście", "ils": "robili", "elles": "robiły"},
+        "future": {"je": "będę robić", "tu": "będziesz robić", "il": "będzie robić", "nous": "będziemy robić", "vous": "będziecie robić", "ils": "będą robić"}
+      }
+    },
+    {
+      "fr": "aimer",
+      "pl": "kochać / lubić",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "kocham / lubię", "tu": "kochasz / lubisz", "il": "kocha / lubi", "nous": "kochamy / lubimy", "vous": "kochacie / lubicie", "ils": "kochają / lubią"},
+        "past": {"je_m": "kochałem", "je_f": "kochałam", "tu_m": "kochałeś", "tu_f": "kochałaś", "il": "kochał", "elle": "kochała", "nous_m": "kochaliśmy", "nous_f": "kochałyśmy", "vous_m": "kochaliście", "vous_f": "kochałyście", "ils": "kochali", "elles": "kochały"},
+        "future": {"je": "będę kochać", "tu": "będziesz kochać", "il": "będzie kochać", "nous": "będziemy kochać", "vous": "będziecie kochać", "ils": "będą kochać"}
+      }
+    },
+    {
+      "fr": "lire",
+      "pl": "czytać",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "czytam", "tu": "czytasz", "il": "czyta", "nous": "czytamy", "vous": "czytacie", "ils": "czytają"},
+        "past": {"je_m": "czytałem", "je_f": "czytałam", "tu_m": "czytałeś", "tu_f": "czytałaś", "il": "czytał", "elle": "czytała", "nous_m": "czytaliśmy", "nous_f": "czytałyśmy", "vous_m": "czytaliście", "vous_f": "czytałyście", "ils": "czytali", "elles": "czytały"},
+        "future": {"je": "będę czytać", "tu": "będziesz czytać", "il": "będzie czytać", "nous": "będziemy czytać", "vous": "będziecie czytać", "ils": "będą czytać"}
+      }
+    },
+    {
+      "fr": "écrire",
+      "pl": "pisać",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "piszę", "tu": "piszesz", "il": "pisze", "nous": "piszemy", "vous": "piszecie", "ils": "piszą"},
+        "past": {"je_m": "pisałem", "je_f": "pisałam", "tu_m": "pisałeś", "tu_f": "pisałaś", "il": "pisał", "elle": "pisała", "nous_m": "pisaliśmy", "nous_f": "pisałyśmy", "vous_m": "pisaliście", "vous_f": "pisałyście", "ils": "pisali", "elles": "pisały"},
+        "future": {"je": "będę pisać", "tu": "będziesz pisać", "il": "będzie pisać", "nous": "będziemy pisać", "vous": "będziecie pisać", "ils": "będą pisać"}
+      }
+    },
+    {
+      "fr": "dormir",
+      "pl": "spać",
+      "type": "irrégulier",
+      "conjugations": {
+        "present": {"je": "śpię", "tu": "śpisz", "il": "śpi", "nous": "śpimy", "vous": "śpicie", "ils": "śpią"},
+        "past": {"je_m": "spałem", "je_f": "spałam", "tu_m": "spałeś", "tu_f": "spałaś", "il": "spał", "elle": "spała", "nous_m": "spaliśmy", "nous_f": "spałyśmy", "vous_m": "spaliście", "vous_f": "spałyście", "ils": "spali", "elles": "spały"},
+        "future": {"je": "będę spać", "tu": "będziesz spać", "il": "będzie spać", "nous": "będziemy spać", "vous": "będziecie spać", "ils": "będą spać"}
+      }
+    },
+    {
+      "fr": "travailler",
+      "pl": "pracować",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "pracuję", "tu": "pracujesz", "il": "pracuje", "nous": "pracujemy", "vous": "pracujecie", "ils": "pracują"},
+        "past": {"je_m": "pracowałem", "je_f": "pracowałam", "tu_m": "pracowałeś", "tu_f": "pracowałaś", "il": "pracował", "elle": "pracowała", "nous_m": "pracowaliśmy", "nous_f": "pracowałyśmy", "vous_m": "pracowaliście", "vous_f": "pracowałyście", "ils": "pracowali", "elles": "pracowały"},
+        "future": {"je": "będę pracować", "tu": "będziesz pracować", "il": "będzie pracować", "nous": "będziemy pracować", "vous": "będziecie pracować", "ils": "będą pracować"}
+      }
+    },
+    {
+      "fr": "habiter",
+      "pl": "mieszkać",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "mieszkam", "tu": "mieszkasz", "il": "mieszka", "nous": "mieszkamy", "vous": "mieszkacie", "ils": "mieszkają"},
+        "past": {"je_m": "mieszkałem", "je_f": "mieszkałam", "tu_m": "mieszkałeś", "tu_f": "mieszkałaś", "il": "mieszkał", "elle": "mieszkała", "nous_m": "mieszkaliśmy", "nous_f": "mieszkałyśmy", "vous_m": "mieszkaliście", "vous_f": "mieszkałyście", "ils": "mieszkali", "elles": "mieszkały"},
+        "future": {"je": "będę mieszkać", "tu": "będziesz mieszkać", "il": "będzie mieszkać", "nous": "będziemy mieszkać", "vous": "będziecie mieszkać", "ils": "będą mieszkać"}
+      }
+    },
+    {
+      "fr": "comprendre",
+      "pl": "rozumieć",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "rozumiem", "tu": "rozumiesz", "il": "rozumie", "nous": "rozumiemy", "vous": "rozumiecie", "ils": "rozumieją"},
+        "past": {"je_m": "rozumiałem", "je_f": "rozumiałam", "tu_m": "rozumiałeś", "tu_f": "rozumiałaś", "il": "rozumiał", "elle": "rozumiała", "nous_m": "rozumieliśmy", "nous_f": "rozumiałyśmy", "vous_m": "rozumieliście", "vous_f": "rozumiałyście", "ils": "rozumieli", "elles": "rozumiały"},
+        "future": {"je": "będę rozumieć", "tu": "będziesz rozumieć", "il": "będzie rozumieć", "nous": "będziemy rozumieć", "vous": "będziecie rozumieć", "ils": "będą rozumieć"}
+      }
+    },
+    {
+      "fr": "penser",
+      "pl": "myśleć",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "myślę", "tu": "myślisz", "il": "myśli", "nous": "myślimy", "vous": "myślicie", "ils": "myślą"},
+        "past": {"je_m": "myślałem", "je_f": "myślałam", "tu_m": "myślałeś", "tu_f": "myślałaś", "il": "myślał", "elle": "myślała", "nous_m": "myśleliśmy", "nous_f": "myślałyśmy", "vous_m": "myśleliście", "vous_f": "myślałyście", "ils": "myśleli", "elles": "myślały"},
+        "future": {"je": "będę myśleć", "tu": "będziesz myśleć", "il": "będzie myśleć", "nous": "będziemy myśleć", "vous": "będziecie myśleć", "ils": "będą myśleć"}
+      }
+    },
+    {
+      "fr": "connaître",
+      "pl": "znać",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "znam", "tu": "znasz", "il": "zna", "nous": "znamy", "vous": "znacie", "ils": "znają"},
+        "past": {"je_m": "znałem", "je_f": "znałam", "tu_m": "znałeś", "tu_f": "znałaś", "il": "znał", "elle": "znała", "nous_m": "znaliśmy", "nous_f": "znałyśmy", "vous_m": "znaliście", "vous_f": "znałyście", "ils": "znali", "elles": "znały"},
+        "future": {"je": "będę znać", "tu": "będziesz znać", "il": "będzie znać", "nous": "będziemy znać", "vous": "będziecie znać", "ils": "będą znać"}
+      }
+    },
+    {
+      "fr": "donner",
+      "pl": "dawać",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "daję", "tu": "dajesz", "il": "daje", "nous": "dajemy", "vous": "dajecie", "ils": "dają"},
+        "past": {"je_m": "dawałem", "je_f": "dawałam", "tu_m": "dawałeś", "tu_f": "dawałaś", "il": "dawał", "elle": "dawała", "nous_m": "dawaliśmy", "nous_f": "dawałyśmy", "vous_m": "dawaliście", "vous_f": "dawałyście", "ils": "dawali", "elles": "dawały"},
+        "future": {"je": "będę dawać", "tu": "będziesz dawać", "il": "będzie dawać", "nous": "będziemy dawać", "vous": "będziecie dawać", "ils": "będą dawać"}
+      }
+    },
+    {
+      "fr": "prendre",
+      "pl": "brać",
+      "type": "irrégulier",
+      "conjugations": {
+        "present": {"je": "biorę", "tu": "bierzesz", "il": "bierze", "nous": "bierzemy", "vous": "bierzecie", "ils": "biorą"},
+        "past": {"je_m": "brałem", "je_f": "brałam", "tu_m": "brałeś", "tu_f": "brałaś", "il": "brał", "elle": "brała", "nous_m": "braliśmy", "nous_f": "brałyśmy", "vous_m": "braliście", "vous_f": "brałyście", "ils": "brali", "elles": "brały"},
+        "future": {"je": "będę brać", "tu": "będziesz brać", "il": "będzie brać", "nous": "będziemy brać", "vous": "będziecie brać", "ils": "będą brać"}
+      }
+    },
+    {
+      "fr": "acheter",
+      "pl": "kupować",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "kupuję", "tu": "kupujesz", "il": "kupuje", "nous": "kupujemy", "vous": "kupujecie", "ils": "kupują"},
+        "past": {"je_m": "kupowałem", "je_f": "kupowałam", "tu_m": "kupowałeś", "tu_f": "kupowałaś", "il": "kupował", "elle": "kupowała", "nous_m": "kupowaliśmy", "nous_f": "kupowałyśmy", "vous_m": "kupowaliście", "vous_f": "kupowałyście", "ils": "kupowali", "elles": "kupowały"},
+        "future": {"je": "będę kupować", "tu": "będziesz kupować", "il": "będzie kupować", "nous": "będziemy kupować", "vous": "będziecie kupować", "ils": "będą kupować"}
+      }
+    },
+    {
+      "fr": "attendre",
+      "pl": "czekać",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "czekam", "tu": "czekasz", "il": "czeka", "nous": "czekamy", "vous": "czekacie", "ils": "czekają"},
+        "past": {"je_m": "czekałem", "je_f": "czekałam", "tu_m": "czekałeś", "tu_f": "czekałaś", "il": "czekał", "elle": "czekała", "nous_m": "czekaliśmy", "nous_f": "czekałyśmy", "vous_m": "czekaliście", "vous_f": "czekałyście", "ils": "czekali", "elles": "czekały"},
+        "future": {"je": "będę czekać", "tu": "będziesz czekać", "il": "będzie czekać", "nous": "będziemy czekać", "vous": "będziecie czekać", "ils": "będą czekać"}
+      }
+    },
+    {
+      "fr": "appeler",
+      "pl": "dzwonić",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "dzwonię", "tu": "dzwonisz", "il": "dzwoni", "nous": "dzwonimy", "vous": "dzwonicie", "ils": "dzwonią"},
+        "past": {"je_m": "dzwoniłem", "je_f": "dzwoniłam", "tu_m": "dzwoniłeś", "tu_f": "dzwoniłaś", "il": "dzwonił", "elle": "dzwoniła", "nous_m": "dzwoniliśmy", "nous_f": "dzwoniłyśmy", "vous_m": "dzwoniliście", "vous_f": "dzwoniłyście", "ils": "dzwonili", "elles": "dzwoniły"},
+        "future": {"je": "będę dzwonić", "tu": "będziesz dzwonić", "il": "będzie dzwonić", "nous": "będziemy dzwonić", "vous": "będziecie dzwonić", "ils": "będą dzwonić"}
+      }
+    },
+    {
+      "fr": "partir",
+      "pl": "wyjeżdżać",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "wyjeżdżam", "tu": "wyjeżdżasz", "il": "wyjeżdża", "nous": "wyjeżdżamy", "vous": "wyjeżdżacie", "ils": "wyjeżdżają"},
+        "past": {"je_m": "wyjeżdżałem", "je_f": "wyjeżdżałam", "tu_m": "wyjeżdżałeś", "tu_f": "wyjeżdżałaś", "il": "wyjeżdżał", "elle": "wyjeżdżała", "nous_m": "wyjeżdżaliśmy", "nous_f": "wyjeżdżałyśmy", "vous_m": "wyjeżdżaliście", "vous_f": "wyjeżdżałyście", "ils": "wyjeżdżali", "elles": "wyjeżdżały"},
+        "future": {"je": "będę wyjeżdżać", "tu": "będziesz wyjeżdżać", "il": "będzie wyjeżdżać", "nous": "będziemy wyjeżdżać", "vous": "będziecie wyjeżdżać", "ils": "będą wyjeżdżać"}
+      }
+    },
+    {
+      "fr": "arriver",
+      "pl": "przyjeżdżać",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "przyjeżdżam", "tu": "przyjeżdżasz", "il": "przyjeżdża", "nous": "przyjeżdżamy", "vous": "przyjeżdżacie", "ils": "przyjeżdżają"},
+        "past": {"je_m": "przyjeżdżałem", "je_f": "przyjeżdżałam", "tu_m": "przyjeżdżałeś", "tu_f": "przyjeżdżałaś", "il": "przyjeżdżał", "elle": "przyjeżdżała", "nous_m": "przyjeżdżaliśmy", "nous_f": "przyjeżdżałyśmy", "vous_m": "przyjeżdżaliście", "vous_f": "przyjeżdżałyście", "ils": "przyjeżdżali", "elles": "przyjeżdżały"},
+        "future": {"je": "będę przyjeżdżać", "tu": "będziesz przyjeżdżać", "il": "będzie przyjeżdżać", "nous": "będziemy przyjeżdżać", "vous": "będziecie przyjeżdżać", "ils": "będą przyjeżdżać"}
+      }
+    },
+    {
+      "fr": "chercher",
+      "pl": "szukać",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "szukam", "tu": "szukasz", "il": "szuka", "nous": "szukamy", "vous": "szukacie", "ils": "szukają"},
+        "past": {"je_m": "szukałem", "je_f": "szukałam", "tu_m": "szukałeś", "tu_f": "szukałaś", "il": "szukał", "elle": "szukała", "nous_m": "szukaliśmy", "nous_f": "szukałyśmy", "vous_m": "szukaliście", "vous_f": "szukałyście", "ils": "szukali", "elles": "szukały"},
+        "future": {"je": "będę szukać", "tu": "będziesz szukać", "il": "będzie szukać", "nous": "będziemy szukać", "vous": "będziecie szukać", "ils": "będą szukać"}
+      }
+    },
+    {
+      "fr": "trouver",
+      "pl": "znajdować",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "znajduję", "tu": "znajdujesz", "il": "znajduje", "nous": "znajdujemy", "vous": "znajdujecie", "ils": "znajdują"},
+        "past": {"je_m": "znajdowałem", "je_f": "znajdowałam", "tu_m": "znajdowałeś", "tu_f": "znajdowałaś", "il": "znajdował", "elle": "znajdowała", "nous_m": "znajdowaliśmy", "nous_f": "znajdowałyśmy", "vous_m": "znajdowaliście", "vous_f": "znajdowałyście", "ils": "znajdowali", "elles": "znajdowały"},
+        "future": {"je": "będę znajdować", "tu": "będziesz znajdować", "il": "będzie znajdować", "nous": "będziemy znajdować", "vous": "będziecie znajdować", "ils": "będą znajdować"}
+      }
+    },
+    {
+      "fr": "ouvrir",
+      "pl": "otwierać",
+      "type": "régulier",
+      "conjugations": {
+        "present": {"je": "otwieram", "tu": "otwierasz", "il": "otwiera", "nous": "otwieramy", "vous": "otwieracie", "ils": "otwierają"},
+        "past": {"je_m": "otwierałem", "je_f": "otwierałam", "tu_m": "otwierałeś", "tu_f": "otwierałaś", "il": "otwierał", "elle": "otwierała", "nous_m": "otwieraliśmy", "nous_f": "otwierałyśmy", "vous_m": "otwieraliście", "vous_f": "otwierałyście", "ils": "otwierali", "elles": "otwierały"},
+        "future": {"je": "będę otwierać", "tu": "będziesz otwierać", "il": "będzie otwierać", "nous": "będziemy otwierać", "vous": "będziecie otwierać", "ils": "będą otwierać"}
+      }
+    }
+  ]
+}
