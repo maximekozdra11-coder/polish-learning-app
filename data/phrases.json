@@ -1,0 +1,140 @@
+{
+  "categories": [
+    {
+      "id": "salutations",
+      "name": "Salutations",
+      "icon": "👋",
+      "phrases": [
+        {"fr": "Bonjour (formel)", "pl": "Dzień dobry", "phonetic": "Djeñ dob-ry", "context": "Formel, utilisé avant 18h"},
+        {"fr": "Bonsoir (formel)", "pl": "Dobry wieczór", "phonetic": "Dob-ry vié-tchour", "context": "Formel, utilisé après 18h"},
+        {"fr": "Salut (informel)", "pl": "Cześć", "phonetic": "Tchèchtch", "context": "Informel, entre amis"},
+        {"fr": "Au revoir (formel)", "pl": "Do widzenia", "phonetic": "Do vi-dzé-nia", "context": "Formel"},
+        {"fr": "À bientôt", "pl": "Do zobaczenia", "phonetic": "Do zo-ba-tché-nia", "context": "Informel"},
+        {"fr": "Bonne nuit", "pl": "Dobranoc", "phonetic": "Dob-ra-nots", "context": "Avant de dormir"},
+        {"fr": "Comment allez-vous ? (formel)", "pl": "Jak się pan/pani miewa?", "phonetic": "Yak chè pan/pa-ñi mié-va", "context": "Très formel"},
+        {"fr": "Comment ça va ? (informel)", "pl": "Jak się masz?", "phonetic": "Yak chè mach", "context": "Informel"},
+        {"fr": "Je vais bien, merci", "pl": "Dobrze, dziękuję", "phonetic": "Dob-jé, djeñ-kou-yé", "context": "Réponse standard"},
+        {"fr": "Enchanté(e)", "pl": "Miło mi", "phonetic": "Mi-wo mi", "context": "En se présentant"},
+        {"fr": "Je m'appelle...", "pl": "Nazywam się...", "phonetic": "Na-zy-vam chè...", "context": "Se présenter"},
+        {"fr": "Bienvenue !", "pl": "Witamy!", "phonetic": "Vi-ta-my", "context": "Accueillir quelqu'un"}
+      ]
+    },
+    {
+      "id": "restaurant",
+      "name": "Restaurant",
+      "icon": "🍽️",
+      "phrases": [
+        {"fr": "Une table pour deux personnes, s'il vous plaît", "pl": "Stolik dla dwóch osób, proszę", "phonetic": "Sto-lik dla dvouh o-soub, pro-chè", "context": "À l'entrée du restaurant"},
+        {"fr": "La carte, s'il vous plaît", "pl": "Menu, proszę", "phonetic": "Mé-nou, pro-chè", "context": "Pour demander le menu"},
+        {"fr": "Je voudrais commander...", "pl": "Chciałbym/Chciałabym zamówić...", "phonetic": "Htchiaou-bym/Htchia-wa-bym za-mou-vitj...", "context": "Pour commander (m/f)"},
+        {"fr": "Qu'est-ce que vous recommandez ?", "pl": "Co pan/pani poleca?", "phonetic": "Tso pan/pa-ñi po-lé-tsa", "context": "Demander une recommandation"},
+        {"fr": "Je suis végétarien(ne)", "pl": "Jestem wegetarianinem/wegetarianką", "phonetic": "Yés-tem vé-gé-ta-ria-ñi-nem/...", "context": "Régime alimentaire"},
+        {"fr": "Je suis allergique à...", "pl": "Jestem uczulony/uczulona na...", "phonetic": "Yés-tem ou-tchou-lo-ny/na na...", "context": "Allergie"},
+        {"fr": "C'est délicieux !", "pl": "To jest pyszne!", "phonetic": "To yest pych-né", "context": "Complimenter le plat"},
+        {"fr": "L'addition, s'il vous plaît", "pl": "Rachunek, proszę", "phonetic": "Ra-hou-nek, pro-chè", "context": "Pour demander la note"},
+        {"fr": "Est-ce que le service est inclus ?", "pl": "Czy napiwek jest wliczony?", "phonetic": "Tchy na-pi-vek yest vli-tcho-ny", "context": "Pour le pourboire"},
+        {"fr": "Je voudrais payer séparément", "pl": "Chciałbym zapłacić osobno", "phonetic": "Htchiaou-bym zap-wa-tshitch o-sob-no", "context": "Paiement séparé"},
+        {"fr": "Sans gluten, s'il vous plaît", "pl": "Bez glutenu, proszę", "phonetic": "Bez glou-té-nou, pro-chè", "context": "Régime sans gluten"},
+        {"fr": "Un verre d'eau, s'il vous plaît", "pl": "Szklankę wody, proszę", "phonetic": "Chklan-kè vo-dy, pro-chè", "context": "Demander de l'eau"}
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "Transport",
+      "icon": "🚂",
+      "phrases": [
+        {"fr": "Où est la gare ?", "pl": "Gdzie jest dworzec?", "phonetic": "Gdjé yest dvo-jets", "context": "Chercher la gare"},
+        {"fr": "Un billet pour Varsovie, s'il vous plaît", "pl": "Bilet do Warszawy, proszę", "phonetic": "Bi-let do var-cha-vy, pro-chè", "context": "Acheter un billet"},
+        {"fr": "À quelle heure part le prochain train ?", "pl": "O której godzinie odjeżdża następny pociąg?", "phonetic": "O ktou-reï go-dji-ñe od-yejd-ja nas-temp-ny po-tchiong", "context": "Horaires de train"},
+        {"fr": "De quel quai part le train ?", "pl": "Z którego peronu odjeżdża pociąg?", "phonetic": "Z ktou-ré-go pé-ro-nou od-yejd-ja po-tchiong", "context": "Numéro de quai"},
+        {"fr": "Est-ce que ce bus va au centre-ville ?", "pl": "Czy ten autobus jedzie do centrum?", "phonetic": "Tchy ten ao-to-bous yé-djé do tsen-troom", "context": "Direction du bus"},
+        {"fr": "Où dois-je descendre ?", "pl": "Gdzie mam wysiąść?", "phonetic": "Gdjé mam vy-chia-chtch", "context": "Quel arrêt"},
+        {"fr": "Appelez-moi un taxi, s'il vous plaît", "pl": "Proszę zamówić taksówkę", "phonetic": "Pro-chè za-mou-vitj tak-souv-kè", "context": "Demander un taxi"},
+        {"fr": "Conduisez-moi à l'hôtel...", "pl": "Proszę jechać do hotelu...", "phonetic": "Pro-chè yé-hatch do ho-té-lou...", "context": "Direction au taxi"}
+      ]
+    },
+    {
+      "id": "hotel",
+      "name": "Hôtel",
+      "icon": "🏨",
+      "phrases": [
+        {"fr": "J'ai une réservation au nom de...", "pl": "Mam rezerwację na nazwisko...", "phonetic": "Mam ré-zer-va-tsyé na naz-vis-ko...", "context": "À la réception"},
+        {"fr": "Je voudrais une chambre pour une nuit", "pl": "Chciałbym pokój na jedną noc", "phonetic": "Htchiaou-bym po-kouï na yed-nom nots", "context": "Réserver une chambre"},
+        {"fr": "Combien coûte une nuit ?", "pl": "Ile kosztuje jedna noc?", "phonetic": "I-lé koch-tou-yé yed-na nots", "context": "Prix de la chambre"},
+        {"fr": "À quelle heure est le petit-déjeuner ?", "pl": "O której jest śniadanie?", "phonetic": "O ktou-reï yest chña-da-ñe", "context": "Horaire du petit-déjeuner"},
+        {"fr": "Ma chambre n'est pas propre", "pl": "Mój pokój nie jest czysty", "phonetic": "Mouï po-kouï ñe yest tchys-ty", "context": "Signaler un problème"},
+        {"fr": "Pouvez-vous m'apporter des serviettes ?", "pl": "Czy może mi pan/pani przynieść ręczniki?", "phonetic": "Tchy mo-jé mi pan/pa-ñi pchy-ñechtch rèñtch-ñi-ki", "context": "Demander des serviettes"},
+        {"fr": "Je voudrais prolonger mon séjour", "pl": "Chciałbym przedłużyć pobyt", "phonetic": "Htchiaou-bym pché-dwou-jitch po-byt", "context": "Prolongation"},
+        {"fr": "À quelle heure faut-il libérer la chambre ?", "pl": "Do której godziny trzeba zwolnić pokój?", "phonetic": "Do ktou-reï go-dji-ny tché-ba zvol-ñitch po-kouï", "context": "Heure de départ"}
+      ]
+    },
+    {
+      "id": "urgences",
+      "name": "Urgences",
+      "icon": "🆘",
+      "phrases": [
+        {"fr": "Au secours !", "pl": "Na pomoc!", "phonetic": "Na po-mots", "context": "Urgence"},
+        {"fr": "Appelez la police !", "pl": "Proszę wezwać policję!", "phonetic": "Pro-chè vez-vatj po-li-tsyé", "context": "Urgence police"},
+        {"fr": "Appelez une ambulance !", "pl": "Proszę wezwać pogotowie!", "phonetic": "Pro-chè vez-vatj po-go-to-vié", "context": "Urgence médicale"},
+        {"fr": "Je suis malade", "pl": "Jestem chory/chora", "phonetic": "Yés-tem ho-ry/ho-ra", "context": "Problème de santé (m/f)"},
+        {"fr": "J'ai mal ici", "pl": "Boli mnie tutaj", "phonetic": "Bo-li mñé tou-taï", "context": "Indiquer la douleur"},
+        {"fr": "J'ai été volé(e)", "pl": "Zostałem/Zostałam okradziony/okradziona", "phonetic": "Zos-ta-wem/Zos-ta-wam ok-ra-djio-ny/djio-na", "context": "Vol"},
+        {"fr": "J'ai perdu mon passeport", "pl": "Zgubiłem/Zgubiłam paszport", "phonetic": "Zgou-bi-wem/Zgou-bi-wam pach-port", "context": "Passeport perdu"},
+        {"fr": "Où est l'hôpital le plus proche ?", "pl": "Gdzie jest najbliższy szpital?", "phonetic": "Gdjé yest naï-blij-chy chpi-tal", "context": "Chercher l'hôpital"},
+        {"fr": "J'ai besoin d'un médecin", "pl": "Potrzebuję lekarza", "phonetic": "Po-tché-bou-yé lé-ka-ja", "context": "Besoin médical"},
+        {"fr": "Je suis allergique à la pénicilline", "pl": "Jestem uczulony/a na penicylinę", "phonetic": "Yés-tem ou-tchou-lo-ny/a na pé-ni-tsy-li-nè", "context": "Allergie médicale"}
+      ]
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping",
+      "icon": "🛍️",
+      "phrases": [
+        {"fr": "Combien ça coûte ?", "pl": "Ile to kosztuje?", "phonetic": "I-lé to koch-tou-yé", "context": "Demander le prix"},
+        {"fr": "C'est trop cher", "pl": "To jest za drogie", "phonetic": "To yest za dro-gyé", "context": "Négociation"},
+        {"fr": "Avez-vous ce produit en taille M ?", "pl": "Czy ma pan/pani ten produkt w rozmiarze M?", "phonetic": "Tchy ma pan/pa-ñi ten pro-doukt v roz-mia-jé M", "context": "Chercher une taille"},
+        {"fr": "Puis-je essayer ceci ?", "pl": "Czy mogę to przymierzyć?", "phonetic": "Tchy mo-gè to pchy-mié-jitch", "context": "Cabine d'essayage"},
+        {"fr": "Je le/la prends", "pl": "Biorę to", "phonetic": "Bio-rè to", "context": "Achat décidé"},
+        {"fr": "Avez-vous un sac ?", "pl": "Czy ma pan/pani torbę?", "phonetic": "Tchy ma pan/pa-ñi tor-bè", "context": "Demander un sac"},
+        {"fr": "Je paye par carte", "pl": "Płacę kartą", "phonetic": "Pwa-tsé kar-tom", "context": "Paiement par carte"},
+        {"fr": "Je paye en espèces", "pl": "Płacę gotówką", "phonetic": "Pwa-tsé go-touv-kom", "context": "Paiement en liquide"},
+        {"fr": "Puis-je avoir un reçu ?", "pl": "Czy mogę dostać paragon?", "phonetic": "Tchy mo-gè dos-tatj pa-ra-gon", "context": "Demander un reçu"},
+        {"fr": "Je voudrais retourner cet article", "pl": "Chciałbym/Chciałabym zwrócić ten artykuł", "phonetic": "Htchiaou-bym zvrou-tshitch ten ar-ty-kow", "context": "Retour d'article"}
+      ]
+    },
+    {
+      "id": "questions",
+      "name": "Questions essentielles",
+      "icon": "❓",
+      "phrases": [
+        {"fr": "Où est... ?", "pl": "Gdzie jest...?", "phonetic": "Gdjé yest...?", "context": "Trouver quelque chose"},
+        {"fr": "Quand... ?", "pl": "Kiedy...?", "phonetic": "Kié-dy...?", "context": "Demander l'heure/date"},
+        {"fr": "Comment... ?", "pl": "Jak...?", "phonetic": "Yak...?", "context": "Demander comment"},
+        {"fr": "Pourquoi... ?", "pl": "Dlaczego...?", "phonetic": "Dla-tché-go...?", "context": "Demander la raison"},
+        {"fr": "Qui est... ?", "pl": "Kto to jest...?", "phonetic": "Kto to yest...?", "context": "Identifier quelqu'un"},
+        {"fr": "Qu'est-ce que c'est ?", "pl": "Co to jest?", "phonetic": "Tso to yest", "context": "Identifier un objet"},
+        {"fr": "Combien y en a-t-il ?", "pl": "Ile jest...?", "phonetic": "I-lé yest...?", "context": "Quantité"},
+        {"fr": "Parlez-vous français ?", "pl": "Czy mówi pan/pani po francusku?", "phonetic": "Tchy mou-vi pan/pa-ñi po fran-tsous-kou", "context": "Langue"},
+        {"fr": "Pouvez-vous répéter ?", "pl": "Czy może pan/pani powtórzyć?", "phonetic": "Tchy mo-jé pan/pa-ñi pov-tou-jitch", "context": "Demander de répéter"},
+        {"fr": "Je ne comprends pas", "pl": "Nie rozumiem", "phonetic": "Ñe ro-zou-miem", "context": "Incompréhension"}
+      ]
+    },
+    {
+      "id": "politesse",
+      "name": "Politesse",
+      "icon": "🤝",
+      "phrases": [
+        {"fr": "Merci beaucoup", "pl": "Bardzo dziękuję", "phonetic": "Bar-dzo djeñ-kou-yé", "context": "Remerciement sincère"},
+        {"fr": "De rien", "pl": "Nie ma za co", "phonetic": "Ñé ma za tso", "context": "Répondre à merci"},
+        {"fr": "Excusez-moi / Pardon", "pl": "Przepraszam", "phonetic": "Pché-pra-cham", "context": "S'excuser"},
+        {"fr": "Je suis désolé(e)", "pl": "Przykro mi", "phonetic": "Pchy-kro mi", "context": "Exprimer des regrets"},
+        {"fr": "Avec plaisir", "pl": "Z przyjemnością", "phonetic": "Z pchy-yem-nochtchio", "context": "Accepter une offre"},
+        {"fr": "Félicitations !", "pl": "Gratulacje!", "phonetic": "Gra-tou-la-tsyé", "context": "Féliciter"},
+        {"fr": "Bon anniversaire !", "pl": "Wszystkiego najlepszego!", "phonetic": "Vchyst-ké-go naï-lep-ché-go", "context": "Anniversaire"},
+        {"fr": "Joyeux Noël !", "pl": "Wesołych Świąt!", "phonetic": "Vé-so-wyh Chviontt", "context": "Fêtes de fin d'année"},
+        {"fr": "Bonne chance !", "pl": "Powodzenia!", "phonetic": "Po-vo-dzé-nia", "context": "Encouragement"},
+        {"fr": "Santé ! (toast)", "pl": "Na zdrowie!", "phonetic": "Na zdro-vié", "context": "Porter un toast"}
+      ]
+    }
+  ]
+}
