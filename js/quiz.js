@@ -56,7 +56,7 @@ function initQuiz() {
         const opts = [word.pl, ...distractors.map(d => d.pl)].sort(() => Math.random() - 0.5);
         qs.push({
           question: `Comment dit-on "${word.fr}" en polonais ?`,
-          context: `[${word.phonetic}]`,
+          context: word.phonetic ? `[${word.phonetic}]` : '',
           options: opts,
           answer: opts.indexOf(word.pl),
           type: 'Français → Polonais'

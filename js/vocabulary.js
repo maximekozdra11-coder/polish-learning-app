@@ -89,8 +89,8 @@ function initVocabulary() {
     document.getElementById('flashcard-pl').textContent = word.pl;
     document.getElementById('flashcard-phonetic').textContent = word.phonetic ? `[${word.phonetic}]` : '';
 
-    const genderMap = { m: 'masculin', f: 'féminin', null: '' };
-    const genderBadge = word.gender ? `<span class="badge badge-primary">${genderMap[word.gender] || ''}</span>` : '';
+    const genderMap = { m: 'masculin', f: 'féminin' };
+    const genderBadge = word.gender ? `<span class="badge badge-primary">${genderMap[word.gender] ?? ''}</span>` : '';
     document.getElementById('flashcard-gender').innerHTML = genderBadge;
 
     // Indicate if learned

@@ -180,6 +180,7 @@ function initLessons() {
   }
 
   function renderLessonQuiz(lesson, container) {
+    const QUIZ_ANSWER_DELAY = 1200;
     let currentQ = 0;
     let score = 0;
     let answered = false;
@@ -228,7 +229,7 @@ function initLessons() {
             optContainer.querySelectorAll('.quiz-option')[q.answer].classList.add('correct');
             showToast('❌ Incorrect');
           }
-          setTimeout(() => { currentQ++; renderQ(); }, 1200);
+          setTimeout(() => { currentQ++; renderQ(); }, QUIZ_ANSWER_DELAY);
         });
         optContainer.appendChild(btn);
       });
